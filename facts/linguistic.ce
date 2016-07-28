@@ -1,0 +1,14 @@
+-- --------------------------------------------------------------------------
+-- Licensed Materials - Property of IBM
+--
+-- (C) Copyright IBM Corp. 2015 All Rights Reserved.
+--
+-- US Government Users Restricted Rights - Use, duplication or
+-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+-- --------------------------------------------------------------------------
+
+-- Plural forms (concepts)
+the linguistic thing 'person' has 'people' as plural form.
+
+-- Synonyms (properties)
+--the linguistic thing 'target:occurs during:value' is expressed by 'time played'.

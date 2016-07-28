@@ -1,0 +1,37 @@
+-- --------------------------------------------------------------------------
+-- Licensed Materials - Property of IBM
+--
+-- (C) Copyright IBM Corp. 2011, 2014 All Rights Reserved.
+--
+-- US Government Users Restricted Rights - Use, duplication or
+-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+-- --------------------------------------------------------------------------
+
+-- ($LastChangedRevision$)
+-- ($LastChangedDate$)
+-- ($LastChangedBy$)
+
+Model:   Video
+Title:   Video model
+Version: 1.0
+Date:    6th November 2015
+Author:  Anna Thomas
+
+conceptualise a ~ target ~ T.
+--  ~ occurs during ~ the event E.
+  
+conceptualise a ~ tag ~ T.
+
+conceptualise a ~ target template ~ T.
+
+conceptualise a ~ tag template ~ T.
+  
+conceptualise an ~ annotation ~ A that
+  ~ annotates ~ the target T.
+
+conceptualise an ~ event ~ E that
+  has the value S as ~ start ~ and
+  has the value E as ~ end ~ and
+  ~ is tagged with ~ the tag T and
+  ~ exists in ~ the annotation A.
+  

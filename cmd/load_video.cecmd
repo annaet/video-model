@@ -1,0 +1,16 @@
+-- --------------------------------------------------------------------------
+-- Licensed Materials - Property of IBM
+--
+-- (C) Copyright IBM Corp. 2015 All Rights Reserved.
+--
+-- US Government Users Restricted Rights - Use, duplication or
+-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+-- --------------------------------------------------------------------------
+
+-- Conversation config
+perform load sentences from url '/Hudson/ce/wragge/facts/conversation/conv_config.ce'.
+
+-- Load the raw Video Coding CE
+perform load sentences from url '/Hudson/ce/video/model/video_model.ce'.
+perform load sentences from url '/Hudson/ce/video/facts/modifiers.ce'.
+perform load sentences from url '/Hudson/ce/video/facts/linguistic.ce'.

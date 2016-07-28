@@ -1,0 +1,68 @@
+-- --------------------------------------------------------------------------
+-- Licensed Materials - Property of IBM
+--
+-- (C) Copyright IBM Corp. 2011, 2014 All Rights Reserved.
+--
+-- US Government Users Restricted Rights - Use, duplication or
+-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+-- --------------------------------------------------------------------------
+
+-- ($LastChangedRevision$)
+-- ($LastChangedDate$)
+-- ($LastChangedBy$)
+
+-- Example generated content
+
+there is a Person named 'Narrator' that is a target.
+
+there is a Planet named 'Earth' that is a target.
+
+there is a Weather named 'Storm' that is a tag.
+
+there is a Northern Lights named 'NL - Green' that is a tag.
+
+there is a Northern Lights named 'NL - Purple' that is a tag.
+
+there is a Basic named 'Speaking' that is a tag.
+
+there is an annotation named 'Narrator annotation'.
+
+there is an event named 'Narrator event 0'
+  that has '17002.244000000002' as start
+  and has '89235.782' as end
+  and exists in the annotation 'Narrator annotation'
+  and is tagged with the tag 'Speaking'.
+
+there is an annotation named 'Earth annotation'.
+
+there is an event named 'Earth event 0'
+  that has '13881.24' as start
+  and has '23651.754' as end
+  and exists in the annotation 'Earth annotation'
+  and is tagged with the tag 'NL - Green'
+  and is tagged with the tag 'NL - Purple'.
+
+there is an event named 'Earth event 1'
+  that has '24889.068000000003' as start
+  and has '42147.465' as end
+  and exists in the annotation 'Earth annotation'
+  and is tagged with the tag 'NL - Green'
+  and is tagged with the tag 'Storm'.
+
+there is an event named 'Earth event 2'
+  that has '43150.115999999995' as start
+  and has '57144.564000000006' as end
+  and exists in the annotation 'Earth annotation'
+  and is tagged with the tag 'NL - Green'.
+
+there is an event named 'Earth event 3'
+  that has '57635.223000000005' as start
+  and has '71139.01199999999' as end
+  and exists in the annotation 'Earth annotation'
+  and is tagged with the tag 'NL - Green'.
+
+there is an event named 'Earth event 4'
+  that has '72141.663' as start
+  and has '92130.68400000001' as end
+  and exists in the annotation 'Earth annotation'
+  and is tagged with the tag 'Storm'.
